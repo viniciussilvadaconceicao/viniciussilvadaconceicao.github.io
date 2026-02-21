@@ -1,0 +1,19 @@
+// 
+// Global
+// 
+
+// Use this file to add styling to your theme
+
+.whatsapp-float {
+	position: fixed;
+	right: $spacer * 1.5;
+	bottom: $spacer * 1.5;
+	z-index: $zindex-fixed;
+	width: 3.5rem;
+	height: 3.5rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.6rem;
+	box-shadow: $box-shadow-lg;
+}
