@@ -17,3 +17,32 @@
 	font-size: 1.6rem;
 	box-shadow: $box-shadow-lg;
 }
+
+@media (max-width: 767.98px) {
+	.mobile-full-btn {
+		display: inline-flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+	nav.navbar .container {
+		row-gap: $spacer * 0.75;
+	}
+
+	.features-icons {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+	.call-to-action {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+	.whatsapp-float {
+		right: $spacer;
+		bottom: $spacer;
+		width: 3.25rem;
+		height: 3.25rem;
+	}
+}

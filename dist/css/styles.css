@@ -10838,6 +10838,30 @@ textarea.form-control-lg {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
 }
 
+@media (max-width: 767.98px) {
+  .mobile-full-btn {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+  }
+  nav.navbar .container {
+    row-gap: 0.75rem;
+  }
+  .features-icons {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .call-to-action {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .whatsapp-float {
+    right: 1rem;
+    bottom: 1rem;
+    width: 3.25rem;
+    height: 3.25rem;
+  }
+}
 .features-icons {
   padding-top: 7rem;
   padding-bottom: 7rem;
