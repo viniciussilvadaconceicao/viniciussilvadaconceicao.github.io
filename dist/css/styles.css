@@ -10964,21 +10964,37 @@ textarea.form-control-lg {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
-  background-size: cover;
+  background-color: #212529;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
 header.masthead:before {
   content: "";
   position: absolute;
-  background-color: #1c375e;
+  background: radial-gradient(circle at top left, rgba(124, 58, 237, 0.35), rgba(12, 11, 16, 0.9));
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.5;
+  opacity: 1;
+}
+header.masthead .container {
+  position: relative;
+  z-index: 1;
+}
+header.masthead .hero-content {
+  max-width: 32rem;
+}
+header.masthead .hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+header.masthead .hero-image {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 1.5rem;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(124, 58, 237, 0.4);
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2rem;
@@ -10990,6 +11006,15 @@ header.masthead h1, header.masthead .h1 {
   }
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
+  }
+}
+@media (max-width: 991.98px) {
+  header.masthead .hero-content {
+    text-align: center;
+    margin: 0 auto;
+  }
+  header.masthead .hero-image-wrapper {
+    order: 2;
   }
 }
 
