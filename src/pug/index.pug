@@ -89,21 +89,15 @@ html(lang='pt-BR')
             .container
                 h2.text-center.text-white.mb-5 Planos simples para começar
                 .row.g-4
-                    .col-lg-4
-                        .card.h-100.shadow-sm
-                            .card-body.text-center
-                                h5.card-title Plano Mensal
-                                p.card-text Acesso completo com renovação mensal.
-                    .col-lg-4
-                        .card.h-100.shadow-sm
-                            .card-body.text-center
-                                h5.card-title Plano Trimestral
-                                p.card-text Melhor custo-benefício para uso contínuo.
-                    .col-lg-4
-                        .card.h-100.shadow-sm
-                            .card-body.text-center
-                                h5.card-title Plano Família
-                                p.card-text Mais de uma tela simultânea para compartilhar em casa.
+                    .col-lg-4.col-md-6.mb-4.mb-lg-0
+                        .plan-image-wrapper
+                            img.img-fluid.rounded.shadow-lg(src='assets/img/planos/mensal.png' alt='Plano Mensal 31 dias')
+                    .col-lg-4.col-md-6.mb-4.mb-lg-0
+                        .plan-image-wrapper
+                            img.img-fluid.rounded.shadow-lg(src='assets/img/planos/semestral.jpeg' alt='Plano Semestral 180 dias')
+                    .col-lg-4.col-md-6.mb-4.mb-lg-0
+                        .plan-image-wrapper
+                            img.img-fluid.rounded.shadow-lg(src='assets/img/planos/trimestral.png' alt='Plano Trimestral 90 dias')
 
         section.dark-cards-section
             .container

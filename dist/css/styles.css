@@ -10996,6 +10996,16 @@ footer.footer a {
     height: 3.25rem;
   }
 }
+.plan-image-wrapper img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.plan-image-wrapper img:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1rem 3rem rgba(59, 130, 246, 0.3) !important;
+}
+
 .features-icons {
   padding-top: 7rem;
   padding-bottom: 7rem;
