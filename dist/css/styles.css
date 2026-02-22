@@ -11043,16 +11043,28 @@ header.masthead .container {
 header.masthead .hero-content {
   max-width: 32rem;
 }
-header.masthead .hero-image-wrapper {
+header.masthead .hero-video-wrapper {
   display: flex;
   justify-content: center;
 }
-header.masthead .hero-image {
+header.masthead .video-container {
+  position: relative;
   width: 100%;
-  max-width: 520px;
+  max-width: 640px;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
   border-radius: 1.5rem;
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45);
   border: 1px solid rgba(124, 58, 237, 0.4);
+}
+header.masthead .hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5rem;
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2rem;
@@ -11071,7 +11083,7 @@ header.masthead h1, header.masthead .h1 {
     text-align: center;
     margin: 0 auto;
   }
-  header.masthead .hero-image-wrapper {
+  header.masthead .hero-video-wrapper {
     order: 2;
   }
 }
