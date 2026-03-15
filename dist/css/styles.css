@@ -10966,7 +10966,8 @@ footer.footer a {
   color: #3b82f6;
   font-size: 1.45rem;
   font-weight: 600;
-  margin-bottom: 0.9rem;
+  line-height: 1.1;
+  margin-bottom: 0.45rem;
 }
 
 .release-slider {
@@ -10989,14 +10990,27 @@ footer.footer a {
 }
 
 .release-poster {
-  width: 7rem;
-  height: 10.5rem;
+  width: 8.4rem;
+  height: 12.6rem;
   flex: 0 0 auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 0.4rem;
   box-shadow: 0 12px 24px rgba(15, 23, 42, 0.22);
   transition: transform 0.3s ease;
+}
+
+#lancamentos.py-5 {
+  padding-top: 2rem !important;
+  padding-bottom: 2.25rem !important;
+}
+
+.release-panel + .release-panel {
+  margin-top: 0.9rem;
+}
+
+.release-panel.mt-4 {
+  margin-top: 0.9rem !important;
 }
 
 .release-poster:hover {
@@ -11057,14 +11071,24 @@ footer.footer a {
   }
   .release-panel-title {
     font-size: 1.2rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.4rem;
   }
   .release-track {
     gap: 0.6rem;
   }
   .release-poster {
-    width: 5.2rem;
-    height: 7.8rem;
+    width: 6.2rem;
+    height: 9.3rem;
+  }
+  #lancamentos.py-5 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.75rem !important;
+  }
+  .release-panel + .release-panel {
+    margin-top: 0.75rem;
+  }
+  .release-panel.mt-4 {
+    margin-top: 0.75rem !important;
   }
 }
 .plan-image-wrapper img {
