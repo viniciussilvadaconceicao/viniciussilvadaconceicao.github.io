@@ -157,20 +157,20 @@ footer.footer a {
 
 .release-track {
 	display: flex;
-	gap: 0.75rem;
+	gap: 0.65rem;
 	width: max-content;
-	animation: releases-scroll 16s linear infinite;
+	animation: releases-scroll 18s linear infinite;
 	animation-play-state: running;
 	will-change: transform;
 }
 
 .release-track-slower {
-	animation-duration: 20s;
+	animation-duration: 22s;
 }
 
 .release-poster {
-	width: 8.4rem;
-	height: 12.6rem;
+	width: 10.8rem;
+	height: 16.2rem;
 	flex: 0 0 auto;
 	object-fit: cover;
 	border-radius: 0.4rem;
@@ -179,16 +179,16 @@ footer.footer a {
 }
 
 #lancamentos.py-5 {
-	padding-top: 2rem !important;
-	padding-bottom: 2.25rem !important;
+	padding-top: 1.25rem !important;
+	padding-bottom: 1.5rem !important;
 }
 
 .release-panel + .release-panel {
-	margin-top: 0.9rem;
+	margin-top: 0.6rem;
 }
 
 .release-panel.mt-4 {
-	margin-top: 0.9rem !important;
+	margin-top: 0.6rem !important;
 }
 
 .release-poster:hover {
@@ -261,29 +261,29 @@ footer.footer a {
 
 	.release-panel-title {
 		font-size: 1.2rem;
-		margin-bottom: 0.4rem;
+		margin-bottom: 0.3rem;
 	}
 
 	.release-track {
-		gap: 0.6rem;
+		gap: 0.5rem;
 	}
 
 	.release-poster {
-		width: 6.2rem;
-		height: 9.3rem;
+		width: 7.7rem;
+		height: 11.55rem;
 	}
 
 	#lancamentos.py-5 {
-		padding-top: 1.5rem !important;
-		padding-bottom: 1.75rem !important;
+		padding-top: 1rem !important;
+		padding-bottom: 1.2rem !important;
 	}
 
 	.release-panel + .release-panel {
-		margin-top: 0.75rem;
+		margin-top: 0.5rem;
 	}
 
 	.release-panel.mt-4 {
-		margin-top: 0.75rem !important;
+		margin-top: 0.5rem !important;
 	}
 }
 
