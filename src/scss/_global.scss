@@ -158,16 +158,13 @@ footer.footer a {
 	display: flex;
 	gap: 1.2rem;
 	width: max-content;
-	animation: releases-scroll 24s linear infinite;
+	animation: releases-scroll 14s linear infinite;
+	animation-play-state: running;
 	will-change: transform;
 }
 
 .release-track-slower {
-	animation-duration: 32s;
-}
-
-.release-slider:hover .release-track {
-	animation-play-state: paused;
+	animation-duration: 18s;
 }
 
 .release-poster {
