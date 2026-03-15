@@ -135,10 +135,10 @@ footer.footer a {
 }
 
 .release-panel {
-	background: #f8fafc;
-	border: 1px solid #e2e8f0;
-	border-radius: 0.75rem;
-	padding: 1rem;
+	background: transparent;
+	border: 0;
+	border-radius: 0;
+	padding: 0;
 	overflow: hidden;
 }
 
@@ -242,7 +242,7 @@ footer.footer a {
 	}
 
 	.release-panel {
-		padding: 0.85rem;
+		padding: 0;
 	}
 
 	.release-panel-title {
